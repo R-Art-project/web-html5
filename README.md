@@ -1,2 +1,2 @@
-# web-html5
+# web-template
 This is an template web.
