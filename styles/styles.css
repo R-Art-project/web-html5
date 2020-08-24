@@ -5,13 +5,15 @@ body{
 h1{
     margin-bottom: 0px;
 }
+h3{
+    color: #DA635F;
+}
 p{
     margin: 0px;
 }
 header{
     display: grid;
-    padding: 1em;
-    
+    padding: 2em;  
 }
 header ul{
     list-style-type: none;
@@ -37,3 +39,44 @@ header li a {
     background-color: #DA635F;
     color: white;
   }
+.container{
+      display: grid;
+      grid-template-columns: 300px 1fr 400px;
+      grid-template-rows: 200px 1fr 200px;
+      grid-gap: 20px;
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+.principal-new{
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .second-news-block{
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    background-color: white;
+    border-radius: 15px;
+  }
+.third-block-news{
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    background-color: white;
+    border-radius: 15px;
+  }
+.social-network{
+    float: left;
+}  
+footer{
+    padding: 2em;
+
+}
+.social-network img{
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+footer p{
+    float: right;
+}
