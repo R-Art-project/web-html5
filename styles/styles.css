@@ -1,0 +1,39 @@
+body{
+    background: #F8F9FA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-bottom: 0px;
+}
+p{
+    margin: 0px;
+}
+header{
+    display: grid;
+    padding: 1em;
+    
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    margin-top: 20px;
+    justify-content: space-between; 
+}
+header li{
+    float: left;  
+}
+header li a {
+    display: block;
+    color: #DA635F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  header li a:hover {
+    background-color: #DA635F;
+    color: white;
+  }
