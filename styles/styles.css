@@ -28,16 +28,26 @@ header ul{
 header li{
     float: left;  
 }
-header li a {
+header li button {
     display: block;
     color: #DA635F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border: none;
+    outline: none;
+    transition: 0.3s;
   }
-  header li a:hover {
+header li button:hover {
     background-color: #DA635F;
     color: white;
+  }
+header li button.active {
+    background-color: #DA635F;
+    color: white;
+  }
+  .tabcontent {
+    display: none;
   }
 .container{
       display: grid;
@@ -52,24 +62,31 @@ header li a {
     grid-column: 1 / -1;
     background-color: white;
     border-radius: 15px;
+    padding: 20px;
   }
   .second-news-block{
     grid-row: 2 / 3;
     grid-column: 1 / -1;
     background-color: white;
     border-radius: 15px;
+    padding: 20px;
   }
 .third-block-news{
     grid-row: 3 / 4;
     grid-column: 1 / -1;
     background-color: white;
     border-radius: 15px;
+    padding: 20px;
   }
 .social-network{
     float: left;
 }  
 footer{
-    padding: 2em;
+    /* width: 100%; */
+    height: 70px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 20px;
 
 }
 .social-network img{
