@@ -81,6 +81,8 @@ header li button.active {
   object-fit: cover;
   align-items: center;
   object-position: 0px -20px;
+  padding: 4px;
+  border: 1px solid black;
 }
 .second-news-block{
     grid-row: 2 / 3;
@@ -99,39 +101,67 @@ header li button.active {
   border-bottom: 1px solid #DA635F;
   display: flex;
 }
+.second-news-containerOne span{
+  color: #DA635F;
+}
 .news-one{
   width: 70%;
   padding-left: 100px;
   margin-bottom: 50px;
+}
+.news-one a{
+  color: #DA635F;
+  text-decoration: none;
 }
 .second-news-containerTwo{
   grid-row: 2 / 3;
   border-bottom: 1px solid #DA635F;
   display: flex;
 }
+.second-news-containerTwo span{
+  color: #DA635F;
+}
 .news-two{
   width: 70%;
   padding-left: 100px;
   margin-bottom: 50px;
+}
+.news-two a{
+  color: #DA635F;
+  text-decoration: none;
 }
 .second-news-containerThree{
   grid-row: 3 / 4;
   border-bottom: 1px solid #DA635F;
   display: flex;
 }
+.second-news-containerThree span{
+  color: #DA635F;
+}
 .news-three{
   width: 70%;
   padding-left: 100px;
   margin-bottom: 50px;
 }
+.news-three a{
+  color: #DA635F;
+  text-decoration: none;
+}
 .second-news-containerFor{
   grid-row: 4 / 5;
   display: flex;
+}
+.second-news-containerFor span{
+  color: #DA635F;
 }
 .news-for{
   width: 70%;
   padding-left: 100px;
   margin-bottom: 50px;
+}
+.news-for a{
+  color: #DA635F;
+  text-decoration: none;
 }
 .third-news-block{
     grid-row: 3 / 4;
